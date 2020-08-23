@@ -42,18 +42,14 @@ Une modale s'ouvre permettant la création d'un compte. Même principe que pour 
 
 Si le mot de passe ou le nom d'utilisateur est incorrect, afficher à nouveau la page demandant de vérifier le mdp ou le pseudo (Avec éventuellement une couleur flashy disant que quelque chose a foiré)
 
-*Bonus si le temps le permet*: Phrase en dessous du bouton qui demande "Mot de passe ou identifiant oublié ? " 
+Phrase en dessous du bouton qui demande *"Mot de passe ou identifiant oublié ? "*
 
 ## Navigation
 
-Une barre de recherche pour rechercher des articles et des profils d'utilisateurs. Accessible aussi bien aux utilisateurs enregistrés qu'au utilisateurs non enregistrés. 
+Une barre de recherche pour rechercher des articles et des profils d'utilisateurs. Accessible aussi bien aux utilisateurs enregistrés qu'aux utilisateurs non enregistrés. 
 
-Barre de navigation disponible pour l"utilisateur qui s'est connecté, celle-ci comporte : 
+lien profil disponible pour l"utilisateur qui s'est connecté, celle-ci comporte : 
 
-- Un lien "Setting": 
-  - Account settings
-    - Personnal informations
-    - Delete account 
 
 Un bouton permettant de valider l'enregistrement des nouvelles valeurs dans la DB ou d'annuler les modifications 
 
@@ -93,3 +89,10 @@ Les auteurs les plus consultés / likés
 - Vue d'ensemble des posts publiés. Chaque post est composé d'une page. Il suffit de cliquer sur la vignette pour accèder à l'article. 
 - Vue d'ensemble des posts likés
 - Vue d'ensemble des commentaires 
+
+-Un lien "Sign out"
+-Un lien "Help"
+- Un lien "Setting": 
+  - Account settings
+    - Personnal informations avec la possibilité d'enregistrer ses thèmes préférés
+    - Delete account 
