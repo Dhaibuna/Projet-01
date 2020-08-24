@@ -96,3 +96,5 @@ Les auteurs les plus consultés / likés
   - Account settings
     - Personnal informations avec la possibilité d'enregistrer ses thèmes préférés
     - Delete account 
+
+    **Rmq** : Aller plus loin dans le détail de : Comment on fait pour faire telle fonction, exemple : Ok, il faut un lien Sign Out, donc comment est-ce que je vais faire ca. Quand je vais cliquer, qu'est ce qu'il va se passer. On peut dire de facon ultra explicite ce qui est fait. 
