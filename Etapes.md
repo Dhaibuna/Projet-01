@@ -55,6 +55,20 @@ Concertez vous, prenez le temps de bien définir vos rôles par écrit.
 
 ### Semaine 2
 
+- DB: Table articles + table pivot Articles/utilisateurs
+- Routes client / serveur : Accueil 
+- Logique métier: Création des articles
+- Logique métier: Accueil de la plateforme
+- Logique métier: Profil utilisateur (Pseudo + Articles sous forme de vignettes)
+- Design / Intégration page d'acceuil, profil utilisateur, formulaire de création d'article
+
+
+### Semaine 3
+
+
+
+### Répartition du travail
+
 **Back-end**
 
 Inscription / Connexion / Publication :  Marie-Solange & BAH 
