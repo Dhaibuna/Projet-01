@@ -3,7 +3,7 @@ require_once "db.php";
 $sql = 'SELECT * FROM article';
 $statement = $connection->prepare($sql);
 $statement->execute();
-$article = $statement->fetchAll(PDO::FETCH_OBJ);
+$article = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html>
@@ -33,6 +33,9 @@ $article = $statement->fetchAll(PDO::FETCH_OBJ);
           Nom de l'article
         </th>
         <th>
+          Image
+        </th>
+        <th>
           Texte de l'article
         </th>
         <th>
@@ -41,15 +44,19 @@ $article = $statement->fetchAll(PDO::FETCH_OBJ);
       </tr>
       <?php foreach ($article as $value) : ?>
       <tr>
-        <td><?= $value->Id; ?></td>
-        <td><?= $value->Author; ?></td>
-        <td><?= $value->ArticleName; ?></td>
-        <td><?= $value->ArticleText; ?></td>
+        <td><?= $value['Id'] ?></td>
+        <td><?= $value['Author'] ?></td>
+        <td><?= $value['ArticleName'] ?></td>
         <td>
-          <a href="read.php?id=<?= $value->Id ?>">Lire l'article</a>
-          <a href="update.php?id=<?= $value->Id ?>">Modifier</a>
-          <a href="delete.php?id=<?= $value->Id ?>"
-            onclick="return confirm('Êtes-vous sûr de vouloir supprimer l\'article <?= $value->ArticleName; ?>')">
+          <embed src="data:<?= $value['ImageType'] ?>;base64,<?= base64_encode($value['ArticleImage']) ?>"
+            width="100px" />
+        </td>
+        <td><?= $value['ArticleText'] ?></td>
+        <td>
+          <a href="read.php?id=<?= $value['Id'] ?>">Lire l'article</a>
+          <a href="update.php?id=<?= $value['Id'] ?>">Modifier</a>
+          <a href="delete.php?id=<?= $value['Id'] ?>"
+            onclick="return confirm('Êtes-vous sûr de vouloir supprimer l\'article <?= $value['ArticleName'] ?>')">
             Supprimer
           </a>
         </td>

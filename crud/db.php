@@ -3,14 +3,15 @@
 $servername = "localhost";
 $user = "root";
 $pass = "";
-$db_name = "articles";
+$db_name = "mediacolabo";
 // $connection = mysqli_connect($host, $user, $pass, $db_name);
 // $conn = new PDO("mysql:host=$servername;dbname=bddtest", $username, $password);
 
 // mysqli_query($connection, "SET NAMES utf8");
 
+
 try {
-  $connection = new PDO("mysql:host=$servername;dbname=$db_name", $user, $pass);
+  $connection = new PDO("mysql:host=$servername;dbname=$db_name", $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
   // On définit le mode d'erreur de PDO sur Exception
   $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   // echo 'Connexion réussie';
@@ -20,8 +21,10 @@ try {
     Id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     Author VARCHAR(30) NOT NULL,
     ArticleName VARCHAR(30) NOT NULL,
-    ArticleText TEXT NOT NULL,
-    DatePublication TIMESTAMP)";
+    ArticleText VARCHAR(1250) NOT NULL,
+    ArticleImage mediumblob() NOT NULL,
+    ImageType VARCHAR(30) NOT NULL,
+    DatePublication TIMESTAMP CURRENT_TIMESTAMP)";
 
   $connection->exec($sql);
   // echo 'Table bien créée !';

@@ -5,7 +5,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
   $sql = 'SELECT * FROM article WHERE `id`=:id';
   $statement = $connection->prepare($sql);
   $statement->execute([':id' => $id]);
-  $article = $statement->fetch();
+  $article = $statement->fetch(PDO::FETCH_ASSOC);
 }
 ?>
 
@@ -30,6 +30,10 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
   <p>
     <?= $article['ArticleName']; ?>
   </p>
+  <p>
+    L'article a été publié le <?= $article['DatePublication']; ?>
+  </p>
+  <embed src="data:<?= $article['ImageType'] ?>;base64,<?= base64_encode($article['ArticleImage']) ?>" width="100px" />
   <p>
     <?= $article['ArticleText']; ?>
   </p>

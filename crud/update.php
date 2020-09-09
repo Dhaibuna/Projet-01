@@ -34,6 +34,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
   <h1>
     Modifiez l'article <?= $article['ArticleName']; ?>
   </h1>
+
   <form method="POST" enctype="multipart/form-data">
     <label for="author">Votre nom&nbsp;:</label>
     <input value="<?= $article['Author']; ?>" type="text" name="author" id="author"><br>
@@ -44,10 +45,13 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 <?= $article['ArticleText']; ?>
 </textarea>
     <br>
+    <label for="articleImage">Choisissez une image pour votre article&nbsp;:</label>
+    <input type="file" name="articleImage" id="articleImage"> <br>
     <button type="submit">
       Modifier
     </button>
   </form>
+
   <a href="read.php?id=<?= $_GET['id'] ?>">Lire l'article publié</a> <br>
   <a href="index.php">Parcourir tous les articles</a> <br>
   <a href="create.php">Publier un nouveau article</a> <br>
