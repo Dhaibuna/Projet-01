@@ -25,8 +25,8 @@
     <div class="form-example">
       <button type="submit" name="register" class="btn"> Join us </button>
     </div>
-    <p> Already within us ? <a href=""> Sign in </a>
-
+    <p>
+      Already within us ? <a href=""> Sign in </a>
     </p>
 
   </form>
