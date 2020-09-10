@@ -11,7 +11,7 @@
 
 <body>
   <!-- Création d'un formulaire d'enregistrement en HTML -->
-  <form action="create.php" method="POST" class="form-example">
+  <form action="profile.php" method="POST" class="form-example">
     <div class="form-example">
 
       <!-- Message de succès  DEBUT -->
