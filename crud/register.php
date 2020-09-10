@@ -12,8 +12,6 @@
 <body>
   <!-- Création d'un formulaire d'enregistrement en HTML -->
   <form action="" method="POST" class="form-example">
-    <!-- Les erreurs vont s'afficher ici -->
-    <?php include('errors.php'); ?>
     <div class="form-example">
       <label for="username"> Username </label>
       <input type="text" name="name" id="username" required>
