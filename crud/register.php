@@ -11,16 +11,8 @@
 
 <body>
   <!-- Création d'un formulaire d'enregistrement en HTML -->
-  <form action="profile.php" method="POST" class="form-example">
+  <form action="create.php" method="POST" class="form-example">
     <div class="form-example">
-
-      <!-- Message de succès  DEBUT -->
-      <?php if (!empty($message)) : ?>
-      <div class="alert-success">
-        <?php echo $message; ?>
-      </div>
-      <?php endif; ?>
-      <!-- Message de succès FIN -->
 
       <label for="username"> Username </label>
       <input type="text" name="name" id="username" required>
