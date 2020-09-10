@@ -8,7 +8,14 @@
 </head>
 
 <body>
-  <h1>Profile </h1>
+
+  <h1> Your Profile </h1>
+
+  <h2> Your stats <h2>
+
+      <h2> What about you <h2>
+
+
 </body>
 
 </html>
