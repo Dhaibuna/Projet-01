@@ -42,13 +42,13 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
  - Gestion de projet. 
  - Review des wireframes.
- - Design réalisé sur Figma.
+ - Review du design réalisé sur Figma.
  - Base de données (MySQL)
  - Une partie de l'intégration.
  - Finition des CRUD de la connexion et enregistrement (PHP).
  - Gestion de la mise en commun du CRUD de la connexion et du CRUD d'enregistrement (PHP).
 
- => On a une full stack ici !
+ => Cette fille était littéralement partout !
 
 ####  Marie-Solange Mokagatana
 
@@ -67,7 +67,7 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
  - Schéma de la base de données.
  - Base de données (MySQL).
- 
+
 ## Une petite démo ? 
 
 (POSTER LE TRUC SUR HEROKUUU :D ET METTRE LE LIEN DU COUP )
