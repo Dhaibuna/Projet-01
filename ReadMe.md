@@ -88,6 +88,7 @@ Il reste des fonctionnalités back-end à faire, de l'intégration et du front-e
 ### A faire 
 
 La gestion des pages d'articles, le flux y compris, n'est pas réussie en fonction de la connection de l'utilisateur.
+De plus, le mot de passe a pu être crypté à l'envoie à la base de données, néanmoins, à la mise en commun du travail, le décryptage ne s'effectuyait pas correctement. Cela reste donc à revoir. 
 
 ### Contribution ? 
 Et puis comme on dit : 
