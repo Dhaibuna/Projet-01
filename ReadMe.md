@@ -27,14 +27,47 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 - HTML5, CSS3
 - PHP & MySQL 
+- Laragon pour l'environnement de travail 
 
 ## Les contributeurs 
 
-Yana Snytko
-Marie-Solange 
+1. Yana Snytko 
+2. Marie-Solange Mokagatana
+3. Natascha Gritte 
+4. Mohamed Bah
+
 ### Qui a fait quoi ? 
 
+ #### Yana Snytko 
 
+ - Gestion de projet. 
+ - Review des wireframes.
+ - Design réalisé sur Figma.
+ - Base de données (MySQL)
+ - Une partie de l'intégration.
+ - Finition des CRUD de la connexion et enregistrement (PHP).
+ - Gestion de la mise en commun du CRUD de la connexion et du CRUD d'enregistrement (PHP).
+
+ => On a une full stack ici !
+
+####  Marie-Solange Mokagatana
+
+ - Schéma de la base de données.
+ - Base de données (MySQL).
+ - Gestion du CREATE et du READ du CRUD de la connexion (PHP).
+ 
+ #### Natascha Gritte 
+
+ - Contenu Rédactionnel. 
+ - Base de données (MySQL).
+ - Wireframing et Design sur Figma.
+ - Gestion du CREATE du CRUD de l'enregistrement (PHP).
+
+ #### Mohamed Bah 
+
+ - Schéma de la base de données.
+ - Base de données (MySQL).
+ 
 ## Une petite démo ? 
 
 (POSTER LE TRUC SUR HEROKUUU :D ET METTRE LE LIEN DU COUP )
