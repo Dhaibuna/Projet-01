@@ -4,15 +4,13 @@
 
 **_" Well of knowledge "_** est un  projet de média collaboratif, développé en 2020 par des étudiants de la Sirius School  dans le cadre de leur formation.
 
-Ce projet d'apprentissage avait pour objectif premier l'initiation aux languages PHP & MySQL, mais aussi la familiarisation avec le côté back-end du développement web.
+Ce **_projet d'apprentissage_** avait pour **objectif** premier l'initiation aux languages **PHP & MySQL**, mais aussi la familiarisation avec le côté back-end du développement web.
 
-C'est aussi le premier projet du second cycle de formation,  réalisé en groupe,  seulement après trois mois de formation.
+C'est aussi le **premier projet** du second cycle de formation,  réalisé en groupe,  seulement après **trois mois de formation**.
 
 ## Les consignes 
 
-Les consignes reçues étaient les suivantes : 
-
-### Feedback 
+Les consignes reçues étaient les [suivantes](https://github.com/sirius-school/Semaine-08/blob/master/Projet/consignes.md)
 
 On a vu grand, trop grand en fait. On avait des idées de fous pour des gens qui ont tois mois de code derrière eux,  du style :
 
@@ -20,7 +18,7 @@ On a vu grand, trop grand en fait. On avait des idées de fous pour des gens qui
 
 **theme_page** : Après l'enregistrement, avoir une redirection vers une page de préférences qui permettrait la sélection de thèmes sous forme de tags. 
 
-Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans les temps pour la deadline tout en se disant qu'on pourrait toujours revenir dessus par la suite. 
+Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans les temps et ainsi respecter la deadline, tout en se disant qu'on pourrait toujours revenir dessus par la suite. 
 
 
 ## Les languages utilisés 
@@ -78,7 +76,7 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 2. Cloner le repository sur votre ordi dans le dossier WWW (Comme les fichiers sont en PhP, ca permettra l'affichage en local de celui-ci).
 
-## Concrètement ca en est où ? 
+## Où est-ce qu'on en est ? 
 
 Le projet n'est absolument pas fini. Il reste plein de trucs à faire. 
 Il reste des fonctionnalités back-end à faire, de l'intégration et du front-end. 
@@ -90,4 +88,4 @@ Il reste des fonctionnalités back-end à faire, de l'intégration et du front-e
 ### Contribution ? 
 Et puis comme on dit : 
 
-> Plus on est de fous, plus on rit ! 
+> **Plus on est de fous, plus on rit !**
