@@ -83,7 +83,7 @@ Il reste des fonctionnalités back-end à faire, de l'intégration et du front-e
 
 ### A faire 
 
-(SECTION DES BUGS ET DES CHOSES A FAIRE )
+La gestion des pages d'articles, le flux y compris, n'est pas réussie en fonction de la connection de l'utilisateur.
 
 ### Contribution ? 
 Et puis comme on dit : 
