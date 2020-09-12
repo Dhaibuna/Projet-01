@@ -76,6 +76,10 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 2. Cloner le repository sur votre ordi dans le dossier WWW (Comme les fichiers sont en PhP, ca permettra l'affichage en local de celui-ci).
 
+3. Inserez la base de données mediacolabo.sql, qui se trouve dans le dossier wellOfKnowledge, dans votre interface de bases de données.
+
+4. Dans ce même dossier, wellOfKnowledge, ouvrez la page index.html et profitez de l'expérience.
+
 ## Où est-ce qu'on en est ? 
 
 Le projet n'est absolument pas fini. Il reste plein de trucs à faire. 
