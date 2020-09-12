@@ -6,7 +6,7 @@
 
 Ce **_projet d'apprentissage_** avait pour **objectif** premier l'initiation aux languages **PHP & MySQL**, mais aussi la familiarisation avec le côté back-end du développement web.
 
-C'est aussi le **premier projet** du second cycle de formation,  réalisé en groupe,  seulement après **trois mois de formation**.
+C'est aussi le **premier projet** du second cycle de formation,  réalisé en groupe,  après seulement **trois mois de formation**.
 
 ## Les consignes 
 
