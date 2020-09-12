@@ -68,7 +68,7 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 ## Une petite démo ? 
 
-(POSTER LE TRUC SUR HEROKUUU :D ET METTRE LE LIEN DU COUP )
+https://wellofknowledge.herokuapp.com/ 
 
 ## Installation 
 
