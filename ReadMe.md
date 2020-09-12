@@ -74,6 +74,20 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 ## Installation 
 
+1. Installer Laragon sur votre ordinateur. 
 
+2. Cloner le repository sur votre ordi dans le dossier WWW (Comme les fichiers sont en PhP, ca permettra l'affichage en local de celui-ci).
 
+## Concrètement ca en est où ? 
 
+Le projet n'est absolument pas fini. Il reste plein de trucs à faire. 
+Il reste des fonctionnalités back-end à faire, de l'intégration et du front-end. 
+
+### A faire 
+
+(SECTION DES BUGS ET DES CHOSES A FAIRE )
+
+### Contribution ? 
+Et puis comme on dit : 
+
+> Plus on est de fous, plus on rit ! 
