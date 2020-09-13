@@ -68,6 +68,8 @@ Bon, finalement on a fait légèrement plus simple...afin notamment d'être dans
 
 ## Une petite démo ? 
 
+https://yanasnytko.github.io/Projet-01/wellOfKnowledge/index.html
+
 https://wellofknowledge.herokuapp.com/ 
 
 ## Installation 
