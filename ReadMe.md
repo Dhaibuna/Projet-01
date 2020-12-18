@@ -12,7 +12,7 @@ C'est aussi le **premier projet** du second cycle de formation,  réalisé en gr
 
 Les consignes reçues étaient les [suivantes](https://github.com/sirius-school/Semaine-08/blob/master/Projet/consignes.md)
 
-On a vu grand, trop grand en fait. On avait des idées de fous pour des gens qui ont tois mois de code derrière eux,  du style :
+On a vu grand, trop grand en fait. On avait des idées de fous pour des gens qui ont trois mois de code derrière eux,  du style :
 
 **landing_page** : Avoir une animation JS qui permettrait d'avoir des mots apparaissant et disparaissant ( Ces mots expliquant justement les valeurs du projet)
 
